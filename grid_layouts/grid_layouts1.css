@@ -1,0 +1,34 @@
+body{
+    display: grid;
+    /* place-content: center; */
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto ;
+    grid-template-areas: "hd hd hd "
+    "s1 s1 as"
+    "s2 s2 as"
+    "ft ft ft";
+}
+.al{
+    display: grid;
+    place-content: center;
+}
+.header{
+    grid-area: hd;
+    background-color: aqua;
+}
+.section1{
+    grid-area: s1;
+    background-color: orange;
+}
+.Section2{
+    grid-area: s2;
+    background-color: rebeccapurple;
+}
+.footer{
+    grid-area: ft;
+    background-color: chartreuse;
+}
+.aside{
+    grid-area: as;
+    background-color: firebrick;
+}

@@ -1,0 +1,238 @@
+*{
+    list-style-type: none;
+}
+.header{
+    background-color: #f7f4ec;
+}
+.coco{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-left: 100px;
+}
+nav{
+    display: inline-block;
+}
+.ul{
+    list-style-type: none;
+    display: flex;
+    font-weight: bolder;
+    font-size: 19px;
+    margin-left: 10px;
+}
+.ul li{
+    margin-left: 40px;
+}
+.fire{
+    font-size: 17px;
+}
+.icons{
+    margin-left: 40px;
+    display: inline-block;
+    font-size: 22px;
+    color: rgba(0,0, 0, 0.7);
+}#icc{
+    margin-left: 28px;
+}
+.banner img{
+   margin-left: 400px;
+   width: 500px;
+   height: 500px;
+   /* margin-bottom: 200px; */
+}
+.banpara1{
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 65px;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+.banpara2{
+    display: inline-block;
+    background-color: transparent;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.banpara3{
+    display: inline-block;
+    background-color: transparent;
+    font-size: 18px;
+    margin-left: 120px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 320px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: black;
+    color:white;
+    font-weight: bolder;
+}
+.alla{
+    text-decoration: none;
+    color: black;
+}
+.div01{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;   
+}
+.div02{
+    font-size: 17px;
+    text-align: center;  
+    padding-top: 5px;
+}
+.ull{
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin-left: 120px; 
+}
+#allli{
+    font-size: 50px;
+    text-align: center;
+    color: rgba(0,0, 0, 0.8);
+    border-radius: 50px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 60%;
+    padding: 40px;
+    background-color: rgba(0,0, 0, 0.05);
+    border: none;  
+}
+.onlyli{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    font-weight: bold;
+}
+.onlyli #allli{
+    margin-bottom: 20px;
+}
+.scare{
+    background-color: #ede9dd;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.ss{
+    background-color: transparent;
+}
+.pics{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.pics p{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.scare .heading{
+    font-size: 40px;
+    margin:0px;   
+}
+.section01{
+    background-color: #f7f4ec;
+}
+/* fooooooter */
+footer{
+    position: absolute;
+    background-color: black;
+    width: 99.4%;
+}
+.topdiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    justify-content: space-between;
+}
+.topdiv h3{
+ width: 750px;
+    margin-bottom: 0;
+    font-size:23px ;
+}
+.topdiv p{
+    width: 750px;
+    height: 9vh;
+    border: 4px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+.topdiv p .text{
+    width: 620px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(247, 244, 236);
+}
+.topdiv p .submit{
+    width: 130px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+.topdiv p ::placeholder{
+    padding-left: 20px;
+    font-size: 18px;
+    color: black;
+}
+.ul0010 .f1{
+    font-weight: bold;
+}
+.ul0020 .f2{
+    font-weight: bold;
+}
+.ul0030 .f3{
+    font-weight: bold;
+}
+.uls{
+    width: 750px;
+    margin-left: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size:20px ;
+    line-height: 24px;
+}
+.socialmed{
+    margin-left: 640px;
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.final h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+.final p{
+    margin: 0;
+    margin-top: 10px;
+}

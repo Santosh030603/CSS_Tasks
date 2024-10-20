@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+
+}
+.parent{
+    display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  row-gap: 20px;
+  column-gap: 25px;
+  justify-content: space-evenly;
+}
+.li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 195px;
+    width: auto;
+    border: 1px solid black;
+    border: none;
+    background-color: rgba(0,0,0,0.1);
+}
